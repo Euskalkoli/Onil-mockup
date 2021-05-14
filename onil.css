@@ -1,0 +1,348 @@
+/* Selección de textos (Roboto) */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@font-face {
+  font-family: RobotoReg;
+  src: url(RobotoCondensed-Regular.ttf);
+}
+@font-face {
+  font-family: RobotoBold;
+  src: url(RobotoCondensed-Bold.ttf);
+}
+@font-face {
+  font-family: RobotoIt;
+  src: url(RobotoCondensed-Italic.ttf);
+}
+@font-face {
+  font-family: RobotoLight;
+  src: url(RobotoCondensed-Light.ttf);
+}
+* {box-sizing: border-box;}
+
+/* Cuadritos */
+
+.cuadrito {
+ display: inline-block;
+ position: relative;
+ width: 40%;
+ max-width: 250px;
+ padding-top: 15px;
+ padding-left: 0px;
+ padding-right: 0px;
+ padding-bottom: 50px;
+ border-radius: 20px;
+ background-color: rgb(245, 245, 245);
+}
+
+.cuadrito2 {
+ display: inline-block;
+ position: relative;
+ bottom: 80px;
+ width: 40%;
+ max-width: 125px;
+ max-height: 300px;
+ padding-top: 100px;
+ padding-bottom: 200px;
+ border-radius: 20px;
+ margin: 20px;
+}
+
+.cuadritoImg {
+ display: inline-block;
+ position: relative;
+ width: 100%;
+ top: 50%;
+ padding-top: 197px;
+ padding-bottom: 39px;
+ max-width: 250px;
+ border-radius: 20px;
+ background-image: url("img_4.png");
+ background-size: 100%;
+ cursor: url("img_7.png"), url("img_7.png"), default;
+}
+
+.cuadritoBar {
+ display: block;
+ position: relative;
+ max-width: auto;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ border-radius: 20px;
+
+}
+
+/* Opciones de imágenes */
+
+.image {
+ display: block;
+ width: 70%;
+ height: auto;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.mitImg {
+ display: inline;
+ width: 400px;
+ height: 400px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.mitBuzz {
+ position: absolute;
+ left: 164px;
+ top: 120px;
+ width: 20%;
+ height:5%;
+}
+
+/* Para centrar */
+
+.centered {
+ position: relative;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+}
+
+/* Cabeceras */
+
+h1 {
+ margin: auto;
+ position: relative;
+ width: 700px;
+ font-family: 'RobotoLight', sans-serif;
+ text-align: center;
+ font-size: 25px;
+ line-height: 1.8;
+}
+
+p {
+ font-family: 'RobotoReg', sans-serif;
+ text-align: center;
+ font-size: 11px;
+}
+
+/* Textos */
+
+.producto {
+ display: inline-block;
+ position: relative;
+ top: 30px;
+ left: 50%;
+ font-size: 15px;
+ font-family: 'RobotoReg', sans-serif;
+ transform: translate(-50%, -50%);
+}
+
+.productoHL {
+ display: inline-block;
+ position: relative;
+ top: 30px;
+ transform: translate(25%, -50%);
+ font-size: 30px;
+ font-family: 'RobotoBold', sans-serif; 
+ border-color: rgb(25, 25, 212);
+ border-radius: 20px;
+ border-width: 3px;
+ color: white;
+ cursor: url("img_7.png"), url("img_7.png"), default; 
+}
+
+.precio {
+ position: absolute;
+ bottom: 5px;
+ left: 50%;
+ font-family: 'RobotoLight', sans-serif;
+ transform: translate(-50%, -50%);
+ font-size: 12px;
+}
+
+.titulo {
+ position: relative;
+ font-family: 'RobotoBold', sans-serif;
+ font-size: 20px;
+ top: 10%;
+ padding-bottom: 10px;
+ text-align: center;
+}
+
+.tituloHL {
+ position: absolute;
+ left: 90px;
+ top: 220px;
+ width: 250px;
+ padding: 10px;
+ font-family: 'RobotoBold', sans-serif;
+ font-size: 26px;
+ color: #f1f1f1;
+ padding-bottom: 10px;
+ text-align: center;
+}
+
+.tituloBZ {
+ position: absolute;
+ left: 70px;
+ top: 150px;
+ width: 260px;
+ padding: 10px;
+ font-family: 'RobotoBold', sans-serif;
+ font-size: 20px;
+ color: navy;
+ padding-bottom: 10px;
+ text-align: center;
+}
+
+/* Cursor */
+
+cursor {
+ cursor: url("img_7.png"), url("img_7.png"), default;
+}
+
+/* Botones */
+
+.btblanco {
+ border-style: solid;
+ padding-top: 6px;
+ padding-bottom: 6px;
+ padding-left: 30px;
+ padding-right: 30px;
+ position: absolute;
+ font-family: 'RobotoReg', sans-serif;
+ font-size: 18px;
+ text-align: center;
+ border-color: rgb(25, 25, 212);
+ background-color: white;
+ border-radius: 20px;
+ border-width: 3px;
+ color: rgb(25, 25, 212);
+ cursor: url("img_7.png"), url("img_7.png"), default;
+}
+
+.btblancoHL {
+ border-style: solid;
+ padding-top: 6px;
+ padding-bottom: 6px;
+ padding-left: 10px;
+ padding-right: 10px;
+ position: relative;
+ margin-right: 50px;
+ margin-left: 50px;
+ top: 20px;
+ font-family: 'RobotoReg', sans-serif;
+ font-size: 18px;
+ text-align: center;
+ border-color: rgb(25, 25, 212);
+ background-color: white;
+ border-radius: 20px;
+ border-width: 3px;
+ color: rgb(25, 25, 212);
+ cursor: url("img_7.png"), url("img_7.png"), default;
+}
+
+.btblancoVid {
+ border-style: solid;
+ padding-top: 6px;
+ padding-bottom: 6px;
+ padding-left: 30px;
+ padding-right: 30px;
+ position: absolute;
+ left: 150px;
+ top: 320px;
+ font-family: 'RobotoReg', sans-serif;
+ font-size: 15px;
+ text-align: center;
+ border-color: rgb(25, 25, 212);
+ background-color: white;
+ border-radius: 10px;
+ border-width: 3px;
+ color: rgb(25, 25, 212);
+ cursor: url("img_7.png"), url("img_7.png"), default;
+}
+
+.btazul {
+ display: inline;
+ border-style: solid;
+ padding-top: 6px;
+ padding-bottom: 6px;
+ padding-left: 100px;
+ padding-right: 100px;
+ position: relative;
+ top: 40px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: auto;
+ margin-top: 7%;
+ font-family: 'RobotoLight', sans-serif;
+ font-size: 16px;
+ text-align: center;
+ background-color: rgb(25, 25, 212);
+ border-radius: 20px;
+ color: white;
+ cursor: url("img_7.png"), url("img_7.png"), default;
+ 
+}
+
+/* PNGs */
+
+.barrita {
+   display: inline;
+   position: relative;
+   top: 50px;
+   width: 100%;
+}
+
+/* Conjunto inferior */
+
+.mit {
+ display: inline;
+ height: 50%;
+ width: 50%;
+ position: relative;
+ padding-top: 20px;
+ margin-bottom: 50px;
+ border-radius: 20px;
+}
+
+.vid {
+ left: 0;
+ top: 200px;
+ padding-left: 200px;
+ padding-right: 200px;
+ padding-top: 160px;
+ padding-bottom: 200px;
+ margin-right: 5px;
+ margin-bottom: 50px;
+ background-image: url("img_5.png");
+ background-size: 400px;
+}
+
+.buzz {
+ right: 0;
+ top: 200px;
+ padding-left: 200px;
+ padding-right: 200px;
+ padding-top: 160px;
+ padding-bottom: 200px;
+ margin-left: 5px;
+ margin-bottom: 50px;
+ background-size: 400px;
+ z-index: -1;
+ animation: 10000ms ease-in-out infinite buzzcolor;
+}
+
+/* CSS degradado */
+
+@keyframes buzzcolor {
+ 0% {
+   background-color: rgb(206, 205, 162);
+ }
+ 50% {
+   background-color: rgb(159, 236, 166);
+ }
+ 100% {
+   background-color: rgb(206, 205, 162);
+ }
+}
+
